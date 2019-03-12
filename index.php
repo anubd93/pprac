@@ -1,42 +1,48 @@
-<! DOCTYPE html>
-<html>
-<head>
-    <title>LOG RES SYS</title>
-    <link rel="stylesheet" href="inc/bootstrap.min.css"/>
-    <script src="inc/jquery.min.js"></script>
-    <script src="inc/bootstrap.min.js"></script>
-</head>
-<body>
-    <div class="container">
-        <nav class="navbar navbar-brand">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="index.php">LOG RES SYS</a>
-                </div>
-                <ul class="nav navbar-nav pull-right">
-                    <li><a href="profile.php">Profile</a></li>
-                    <li><a href="profile.php">Log Out</a></li>
-                    <li><a href="login.php">Log In</a></li>
-                    <li><a href="register.php">Res</a></li>
-                </ul>
-            </div>
-        </nav>
-
+<?php
+    include 'inc/header.php'
+?>
         <div class="panel panel-default">
             <div class="panel-heading">
+                <h2>
+                    User List
+                    <span class="pull-right">
+                        <strong>Welcome!!!</strong>
+                    </span>
+                </h2>
+                <div class="panel-body">
+                    <table class="table">
+                        <th width="20%">Serial</th>
+                        <th width="20%">Name</th>
+                        <th width="20%">Username</th>
+                        <th width="20%">Email Address</th>
+                        <th width="20%">Action</th>
+                        <tr>
+                            <td>01</td>
+                            <td>ABC</td>
+                            <td>abc</td>
+                            <td>abc@abc.com</td>
+                            <td><a href="profile.php">View</a></td>
+                        </tr>
+                        <tr>
+                            <td>01</td>
+                            <td>XYZ</td>
+                            <td>xyz</td>
+                            <td>xyz@xyz.com</td>
+                            <td><a href="profile.php">View</a></td>
+                        </tr>
+                        <tr>
+                            <td>01</td>
+                            <td>PQR</td>
+                            <td>pqr</td>
+                            <td>pqr@pqr.com</td>
+                            <td><a href="profile.php">View</a></td>
+                        </tr>
 
+                    </table>
+                </div>
             </div>
         </div>
 
-        <div class="well">
-            <h3>
-                WEBSITE
-                <span class="pull-right">Like</span>
-            </h3>
-        </div>
-
-
-    </div>
-</body>
-</html>
-
+<?php
+include 'inc/footer.php'
+?>
