@@ -12,13 +12,13 @@ include 'inc/header.php'
                         <label for="email">
                             Email Address
                         </label>
-                        <input type="text" id="email" name="email" class="form-control"/>
+                        <input type="text" id="email" name="email" class="form-control" required=""/>
                     </div>
                     <div class="form-group">
                         <label for="password">
                             Password
                         </label>
-                        <input type="password" id="password" name="password" class="form-control"/>
+                        <input type="password" id="password" name="password" class="form-control" required=""/>
                     </div>
                     <button type="submit" name="login" class="btn btn-success">
                         Login

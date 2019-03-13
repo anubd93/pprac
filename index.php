@@ -1,5 +1,9 @@
 <?php
-    include 'inc/header.php'
+    include 'inc/header.php';
+    include 'lib/User.php';
+
+    $user = new User();
+
 ?>
         <div class="panel panel-default">
             <div class="panel-heading">
