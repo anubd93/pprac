@@ -1,7 +1,6 @@
 <div class="well">
-    <h3>
-        WEBSITE
-        <span class="pull-right">Like</span>
+    <h3 class="text-center">
+        YNWA
     </h3>
 </div>
 
